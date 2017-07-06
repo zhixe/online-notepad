@@ -24,8 +24,8 @@
 }
 
 .button--secondary {
-  background: $button-secondary-bg;
-  border: 1px solid $button-secondary-border-color;
+  background: black; //$button-secondary-bg
+  border: 1px solid black; //$button-secondary-border-color
   color: $button-secondary-color;
 }
 

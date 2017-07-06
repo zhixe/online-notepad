@@ -2,7 +2,7 @@ import React from 'react';
 
 const NoteListEmptyItem = () => {
   return (
-    <p className="empty-item"></p>
+    <p className="empty-item">Create a new note</p>
   );
 };
 
