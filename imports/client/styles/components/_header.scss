@@ -1,10 +1,9 @@
 .header {
-  background: black; //$header-bg
+  background: black; // $header-bg
   color: $header-color;
 }
 
 .header__content {
-  align-items: center;
   display: flex;
   height: $header-height;
   justify-content: space-between;
@@ -15,14 +14,4 @@
 
 .header__title {
   margin: 0;
-}
-
-.header__nav-toggle {
-  cursor: pointer;
-  height: 2rem;
-  width: 2rem;
-
-  @include desktop {
-    display: none;
-  }
 }

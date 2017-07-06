@@ -4,7 +4,6 @@
   border: 1px solid $grey;
   overflow-y: scroll;
   width: 100%;
-  -webkit-overflow-scrolling: touch;
 }
 
 .item-list__header {
@@ -28,7 +27,7 @@
 
 .item--selected, .item--selected:hover {
   background-color: $light-grey;
-  border-left: $item-border-width solid $brand-primary;
+  border-left: $item-border-width solid black; // $brand-primary
 }
 
 .item__title {
