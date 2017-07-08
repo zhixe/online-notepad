@@ -1,3 +1,4 @@
+// Import from external framework/library
 import React from 'react';
 import { Accounts } from 'meteor/accounts-base';
 import { createContainer } from 'meteor/react-meteor-data';

@@ -1,3 +1,4 @@
+// Import from external framework/library
 import React from 'react';
 import moment from 'moment';
 import { Session } from 'meteor/session';

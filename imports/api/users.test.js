@@ -1,6 +1,8 @@
+// Import from external framework/library
 import { Meteor } from 'meteor/meteor';
 import expect from 'expect';
 
+// Import from local library
 import { validateNewUser } from './users';
 
 if (Meteor.isServer) {

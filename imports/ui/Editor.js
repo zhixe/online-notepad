@@ -1,9 +1,11 @@
+// Import from external framework/library
 import React from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Session } from 'meteor/session';
 import { Meteor } from 'meteor/meteor';
 import { browserHistory } from 'react-router';
 
+// Import from local library
 import { Notes } from '../api/notes';
 
 export class Editor extends React.Component {

@@ -1,9 +1,11 @@
+// Import from external framework/library
 import { Meteor } from 'meteor/meteor';
 import ReactDOM from 'react-dom';
 import { Tracker } from 'meteor/tracker';
 import { Session } from 'meteor/session';
 import { browserHistory } from 'react-router';
 
+// Import from local library
 import { routes, onAuthChange } from '../imports/routes/routes';
 import '../imports/startup/simple-schema-configuration.js';
 

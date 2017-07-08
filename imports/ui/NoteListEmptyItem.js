@@ -1,3 +1,4 @@
+// Import from external framework/library
 import React from 'react';
 
 const NoteListEmptyItem = () => {

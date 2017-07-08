@@ -1,8 +1,10 @@
+// Import from external framework/library
 import React from 'react';
 import expect from 'expect';
 import { mount } from 'enzyme';
 import { Meteor } from 'meteor/meteor';
 
+// Import from local library
 import { notes } from '../fixtures/fixtures';
 import { NoteList } from './NoteList';
 

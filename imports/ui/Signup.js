@@ -1,3 +1,4 @@
+// Import from external framework/library
 import React from 'react';
 import { Link } from 'react-router';
 import { Accounts } from 'meteor/accounts-base';

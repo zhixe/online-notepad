@@ -1,3 +1,4 @@
+// Import from external framework/library
 import { Meteor } from 'meteor/meteor';
 import SimpleSchema from 'simpl-schema';
 import { Accounts } from 'meteor/accounts-base';
@@ -16,5 +17,5 @@ export const validateNewUser = (user) => {
 };
 
 if (Meteor.isServer) {
-  Accounts.validateNewUser(validateNewUser);  
+  Accounts.validateNewUser(validateNewUser);
 }
